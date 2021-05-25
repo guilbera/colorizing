@@ -1,6 +1,6 @@
 | [Autoencoders Keras implementation](#beta-and-gamma-model-in-keras) | [Autoencoders PyTorch implementation](#beta-and-gamma-model-in-pytorch) | [Pix2Pix](#pix2pix-model) |
 | :---: | :---: | :---: |
-|[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github.com/guilbera/colorizing/blob/main/notebooks/keras_implementation/put_together_keras.ipynb) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github.com/guilbera/colorizing/blob/main/notebooks/pytorch_implementation/put_together_pytorch.ipynb) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github.com/guilbera/colorizing/blob/main/notebooks/pytorch_implementation/put_together_pix2pix.ipynb) |
+|[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/guilbera/colorizing/blob/main/notebooks/keras_implementation/put_together_keras.ipynb) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/guilbera/colorizing/blob/main/notebooks/pytorch_implementation/put_together_pytorch.ipynb) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/guilbera/colorizing/blob/main/notebooks/pytorch_implementation/put_together_pix2pix.ipynb) |
 
 # colorizing
 ![Alt text](B&W_color.png?raw=true)
