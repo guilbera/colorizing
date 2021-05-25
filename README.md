@@ -1,4 +1,6 @@
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github.com/guilbera/colorizing/tree/main/notebooks/)
+| [Autoencoders Keras implementation](#beta-and-gamma-model-in-keras) | [Autoencoders PyTorch implementation](#beta-and-gamma-model-in-pytorch) | [Pix2Pix](#pix2pix-model) |
+| :---: | :---: | :---: |
+|[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github.com/guilbera/colorizing/blob/main/notebooks/keras_implementation/put_together_keras.ipynb) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github.com/guilbera/colorizing/blob/main/notebooks/pytorch_implementation/put_together_pytorch.ipynb) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github.com/guilbera/colorizing/blob/main/notebooks/pytorch_implementation/put_together_pix2pix.ipynb) |
 
 # colorizing
 ![Alt text](B&W_color.png?raw=true)
@@ -21,7 +23,13 @@ The jupyter notebooks can be found in /notebooks/pytorch_implementation/. pix_py
 ## Pix2Pix model
 The jupyter notebooks can be found in /notebooks/pytorch_implementation/. It uses the same dataloader as the beta and gamma model (pix_pytorch.ipynb). pix2pix_model.ipynb contains the Pix2Pix implementation, it can output either 2 channels (Lab implementation) or 3 channels (RGB implementation). put_together_pix2pix.ipynb enables to train the models in Google Colab.
 
-All the Jupyter Notebooks can be opened directly from GitHub in Google Colab by clicking on the Google Colab badge. However, some notebooks open other notebooks as modules using the [Kora library][6]. Thus, it is recommended to copy first the repository in your Google Drive.
+All the Jupyter Notebooks can be opened directly from GitHub in Google Colab by clicking on the Google Colab badges. However, some notebooks open other notebooks as modules using the [Kora library][6]. Thus, it is recommended to copy first the repository in your Google Drive.
+
+## Results
+![Alt text](results.png?raw=true)
+
+## Copyright
+See [LICENSE](LICENSE) for details.
 
 [1]: https://medium.com/p/53855922cda6/edit "Black and White Image Colorization with Deep Learning"
 [2]: https://emilwallner.medium.com/colorize-b-w-photos-with-a-100-line-neural-network-53d9b4449f8d "How to colorize black & white photos with just 100 lines of neural network code"
