@@ -33,7 +33,7 @@ All the Jupyter Notebooks can be opened directly from GitHub in Google Colab by 
 ## Copyright
 See [LICENSE](LICENSE) for details.
 
-[1]: https://medium.com/ "Black and White Image Colorization with Deep Learning"
+[1]: https://anne-guilbert.medium.com/black-and-white-image-colorization-with-deep-learning-53855922cda6 "Black and White Image Colorization with Deep Learning"
 [2]: https://emilwallner.medium.com/colorize-b-w-photos-with-a-100-line-neural-network-53d9b4449f8d "How to colorize black & white photos with just 100 lines of neural network code"
 [3]: https://arxiv.org/abs/1611.07004v3 "Image-to-Image Translation with Conditional Adversarial Networks"
 [4]: https://drive.google.com/file/d/1hNXR_qPwNKS-z3xNQJ4fWlEWe-zES_nX/view?usp=sharing
