@@ -47,6 +47,8 @@ It uses the same dataloader as the beta and gamma model (`pix_pytorch.ipynb`).
 ## Getting started
 All the Jupyter Notebooks can be opened directly from GitHub in Google Colab by clicking on the Google Colab badges at the top of the notebooks. Examples showing how to the different functions are working can be run for each notebook by changing the run_example flag to True.
 
+![Alt text](run_example.png?raw=true)
+
 To train the model, simply click on the Google Colab badge at the top of the README. You can modify the parameters related to the model or the folders to save logs and checkpoints at the top of the notebooks.
 
 Note that some notebooks open other notebooks as modules using the [Kora library][6].
