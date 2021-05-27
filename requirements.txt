@@ -1,0 +1,9 @@
+gdown==3.6.4
+matplotlib==3.2.2
+numpy==1.19.5
+tensorboard==2.5.0
+tensorflow==2.5.0
+torch==1.8.1+cu101
+torchsummary==1.5.1
+torchvision==0.9.1+cu101
+tqdm==4.41.1
