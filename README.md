@@ -15,18 +15,41 @@ The beta and gamma models are implemented in both Keras and PyTorch while the Pi
 The dataset used for the training of the model can be downloaded [here][4] and originates from [here][5].
 
 ## Utilities
-All the models use the pix utility (/notebooks/utilities/pix.ipynb) to copy the dataset from Google Drive to Google Colab and to convert RGB images to Lab images and vice versa. 
+All the models use the pix utility (`/notebooks/utilities/pix.ipynb`) to copy the dataset from Google Drive to Google Colab and to convert RGB images to Lab images and vice versa. 
 
 ## Beta and Gamma model in Keras
-The jupyter notebooks can be found in /notebooks/keras_implementation/. pix_keras.ipynb contains the dataloader. autoencoder_keras.ipynb contains the beta and gamma model implementation. put_together_keras.ipynb enables training the models in Google Colab.
+The jupyter notebooks can be found in `/notebooks/keras_implementation/`.
+
+`pix_keras.ipynb` contains the dataloader.
+
+`autoencoder_keras.ipynb` contains the beta and gamma model implementation. 
+
+`put_together_keras.ipynb` enables training the models in Google Colab.
 
 ## Beta and Gamma model in PyTorch
-The jupyter notebooks can be found in /notebooks/pytorch_implementation/. pix_pytorch.ipynb contains the dataloader. autoencoder_pytorch.ipynb contains the beta and gamma model implementation. put_together_pytorch.ipynb enables training the models in Google Colab.
+The jupyter notebooks can be found in `/notebooks/pytorch_implementation/`.
+
+`pix_pytorch.ipynb` contains the dataloader. 
+
+`autoencoder_pytorch.ipynb` contains the beta and gamma model implementation. 
+
+`put_together_pytorch.ipynb` enables training the models in Google Colab.
 
 ## Pix2Pix model
-The jupyter notebooks can be found in /notebooks/pytorch_implementation/. It uses the same dataloader as the beta and gamma model (pix_pytorch.ipynb). pix2pix_model.ipynb contains the Pix2Pix implementation, it can output either 2 channels (Lab implementation) or 3 channels (RGB implementation). put_together_pix2pix.ipynb enables training the models in Google Colab.
+The jupyter notebooks can be found in `/notebooks/pytorch_implementation/`. 
 
-All the Jupyter Notebooks can be opened directly from GitHub in Google Colab by clicking on the Google Colab badges. However, some notebooks open other notebooks as modules using the [Kora library][6]. Thus, it is recommended to copy first the repository in your Google Drive.
+It uses the same dataloader as the beta and gamma model (`pix_pytorch.ipynb`). 
+
+`pix2pix_model.ipynb` contains the Pix2Pix implementation, it can output either 2 channels (Lab implementation) or 3 channels (RGB implementation). 
+
+`put_together_pix2pix.ipynb` enables training the models in Google Colab.
+
+## Getting started
+All the Jupyter Notebooks can be opened directly from GitHub in Google Colab by clicking on the Google Colab badges at the top of the notebooks. Examples showing how to the different functions are working can be run for each notebook by changing the run_example flag to True.
+
+To train the model, simply click on the Google Colab badge at the top of the README. You can modify the parameters related to the model or the folders to save logs and checkpoints at the top of the notebooks.
+
+Note that some notebooks open other notebooks as modules using the [Kora library][6].
 
 ## Results
 ![Alt text](results.png?raw=true)
