@@ -9,6 +9,7 @@ This is a project about colorizing black and white images using deep learning. T
 * [beta model][2], which consists of an autoencoder
 * [gamma model][2], which consists of the same autoencoder with a classifier used in parallel of the encoder
 * [Pix2Pix model][3], which is a GAN
+
 The beta and gamma models are implemented in both Keras and PyTorch while the Pix2Pix model is implemented only in PyTorch. 
 
 The dataset used for the training of the model can be downloaded [here][4] and originates from [here][5].
